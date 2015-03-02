@@ -108,7 +108,7 @@
 								  };
 		if ([[manfYdict objectForKey:manfYNum] rangeOfString:@"-2" options:NSCaseInsensitiveSearch].location == NSNotFound ? false : true) {
 			manufacturingYear = [[manfYdict objectForKey:manfYNum] substringToIndex:[[manfYdict objectForKey:manfYNum] length] - 1];
-			manufacturingWeek = [@([[manfWdict objectForKey:manfWNum] integerValue] + 27) stringValue];
+			manufacturingWeek = [@([[manfWdict objectForKey:manfWNum] integerValue] + 26) stringValue];
 		} else {
 			manufacturingYear = [manfYdict objectForKey:manfYNum];
 			manufacturingWeek = [manfWdict objectForKey:manfWNum];
