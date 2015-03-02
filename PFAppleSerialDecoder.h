@@ -1,5 +1,5 @@
 //
-//  PFAppleSNDecoder.h
+//  PFAppleSerialDecoder.h
 //  PFSystemKit
 //
 //  Created by Perceval FARAMAZ on 02/03/15.
@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PFAppleSNDecoder : NSObject
+@interface PFAppleSerialDecoder : NSObject
 @property (readonly, nonatomic) NSString* manufacturingYear;
 @property (readonly, nonatomic) NSString* manufacturingWeek;
 @property (readonly, nonatomic) NSString* manufacturingLocation;
+
 -(id) initWithSN:(NSString*)serial;
 @end
