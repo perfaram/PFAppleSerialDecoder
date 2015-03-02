@@ -3,7 +3,7 @@
 
 ### How to use
 ```
-PFAppleSNDecoder* serialDecoder = [[PFAppleSNDecoder alloc] initWithSN:@"C02LGJ39FD57"];
+PFAppleSerialDecoder* serialDecoder = [[PFAppleSerialDecoder alloc] initWithSN:@"C02LGJ39FD57"];
 NSLog(@"Made in : %@", [serialDecoder manufacturingLocation]); //Made in China
 NSLog(@"Made in : %@", [serialDecoder manufacturingYear]); // 2013
 NSLog(@"Week : %@", [serialDecoder manufacturingWeek]); // Week 39
