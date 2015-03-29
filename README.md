@@ -2,7 +2,7 @@
 #### Class for decoding Apple's Serial Numbers
 
 ### How to use
-```
+```objc
 PFAppleSerialDecoder* serialDecoder = [[PFAppleSerialDecoder alloc] initWithSN:@"C02LGJ39FD57"];
 NSLog(@"Made in : %@", [serialDecoder manufacturingLocation]); //Made in China
 NSLog(@"Made in : %@", [serialDecoder manufacturingYear]); // 2013
