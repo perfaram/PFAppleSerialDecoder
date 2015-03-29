@@ -1,4 +1,4 @@
-# PFAppleSerialDecoder ![ARC](https://img.shields.io/badge/ARC-Ready-lightgrey.svg) ![Platform](https://img.shields.io/badge/Platform-iOS/OSX-blue.svg) ![Awesomene](https://img.shields.io/badge/Awesome-YES-ff69b4.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
+# PFAppleSerialDecoder ![ARC](https://img.shields.io/badge/ARC-Ready-lightgrey.svg) ![Platform](https://img.shields.io/badge/Platform-iOS/OSX-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 *Class for decoding Apple's Serial Numbers*
 > Can you help ? Just open a PR !
 
