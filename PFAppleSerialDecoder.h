@@ -13,5 +13,7 @@
 @property (readonly, nonatomic) NSString* manufacturingWeek;
 @property (readonly, nonatomic) NSString* manufacturingLocation;
 
--(id) initWithSN:(NSString*)serial;
+-(id) initWithMacSN:(NSString*)serial;
+-(id) initWithIDeviceSN:(NSString*)serial;
+-(NSString*) decodeManuLoc:(NSString*)thDigit;
 @end
